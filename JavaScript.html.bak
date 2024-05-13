@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Order Details</title>
+
+<style>
+
+	body {
+		background-color:pink;
+	}
+	
+</head>
+<body>
+
+<script language="JavaScript">
+
+var itemName = prompt("Enter Name of Item: ");
+var itemPrice = parseFloat(prompt("Enter Price: "));
+var itemQuantity = parseInt(prompt("Quantity: "));
+var itemDiscount = parseFloat(prompt("Enter Discount: "));
+
+var totalAmount = price * quantity * (1 - discount / 100);
+
+document.write("<p>Item: " + itemName + "</p>");
+document.write("<p>Price: " + itemPrice + "</p>");
+document.write("<p>Quantity: " + itemQuantity + "</p>");
+document.write("<p>Discount: " + itemDiscount + "</p>");
+document.write("<p>Total Amount: " + totalAmount + "</p>");
+
+</script>
+
+</body>
+</html>
